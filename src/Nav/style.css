@@ -1,0 +1,12 @@
+.nav {
+  background-color: ;
+  position: absolute;
+  width: 100%;
+  color: black;
+}
+
+.nav a{
+  padding: 1em;
+  float: right;
+  text-decoration: none;
+}
