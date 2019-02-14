@@ -9,9 +9,10 @@ class Coffee extends Component{
         <div className="nav">
           <h2 className="name">COREY PUTNEY</h2>
           <div className="links">
-            <a href="/" >Work</a>
-            <a href="/about" >About</a>
             <a href="/contact" >Contact</a>
+            <a href="/about" >About</a>
+            <a href="/" >Work</a>
+
           </div>
         </div>
 
@@ -96,19 +97,42 @@ class Coffee extends Component{
         </div>
 
 
-        <div className="visual-container">
-          <p>Visuals + brand</p>
-          <h3 className=""> BRIGHT AND FULL OF ENERGY </h3>
-          <p className="">A crowd sharing app that makes getting your coffee quick, consistent, and reliavle through loyalty programs and participation incentives.</p>
-          <p className="">A crowd sharing app that makes getting your coffee quick, consistent, and reliavle through loyalty programs and participation incentives.</p>
-          <img className="" src="https://previews.dropbox.com/p/thumb/AAVlp6qLd1PXT4PHrW7wnJiq0bXXwRKLpuIWdhEjS3gMBAJmshws2oCx1QP1wVfo9fEmQb4bXCuk-TTNC-MrpHXpauNEPfrTaQf-oZfkDCIdU6NfSHpWIcAGyHlS-44J-ebG6b5okzDyBdwBHp80DlLAyTATV_vq6Sf2JCHaYwktINMtyIod_SNGoHqNAtIfGcyS642D4oQfIZnrRdo_1Twgjr4xHbhrFd5QSqNUrfibnQ/p.png?size_mode=5" />
+        <div id="visual-container">
+          <p className="visual1">Visuals + brand</p>
+
+          <div className="visual2">
+            <h3 className=""> BRIGHT AND FULL OF ENERGY </h3>
+            <p className="">A crowd sharing app that makes getting your coffee quick, consistent, and reliavle through loyalty programs and participation incentives.</p><br/>
+            <p className="">A crowd sharing app that makes getting your coffee quick, consistent, and reliavle through loyalty programs and participation incentives.</p>
+          </div>
+
+          <img className="visual-img" src="https://previews.dropbox.com/p/thumb/AAUQbzrnaJW3RTXHXLhTfJKUEOZe8WScmTgJZ5pO1QdORxUje_e0KD549H0qjx5U7LNQqNlTSSzkJy0Cs_PKkW5mjVpT4rzWgso5Cr5LPTKJ0m4TvU6dd0CNibpIJn2eApiiGt5cr0Yi5E-RcXcfNBBOJ66n5fWan-OT3WaYfx08mMonl2XTdSOYDBbcXOIeNkdz0aOnvoNlWR8F-nxhGc1fWFBCig-i4kDvD7HO7v5f3w/p.png?size_mode=5" />
         </div>
 
-        <div>inside
+
+        <div id="insideApp-container">
+          <p className="inside1">Inside the APP</p>
+          <h3 className="inside2">KNOW WHEN AND WHERE YOUR MORNING JOW IS COMING FROM.</h3>
+          <div  className="insideImg-container">
+            <img className="insideImg1" src="https://previews.dropbox.com/p/thumb/AAUyGIloteOHSBQVmauYt5IheLx3JMC7nGoby_VR0AdVPl5IBAQdO8mdG1Spg42M1qQmpYfS22JzIijG8d27-bSwY2nNprsEBsIwrjbDeHlP02dtiq1xAKgAQuWgrE4fhMmTGBPQ47VHJ-rGVKNpE0IwYRrJlbnaS_uE4dNs0WgrkKplInM8hn8GxNRybO_EXDabMzsRSJAUfKuhtyazZNfLvrgJ0w7Y2NuvvejPNaUM2A/p.png?size_mode=5" />
+            <img className="insideImg2" src="https://previews.dropbox.com/p/thumb/AAXRL-mIEDouvPDnUQmqTpEp_pwnoJJMReWV37ecbI8FAxrmOZ9ExvSenHtLv3PhzK84CUnTG3Fn8AVsOtViMK7-Gcf0ZRXPMbjAl8F11hdl1vI46Zzc9sZ4SZUAy1WfRkpdwE8_d994_Cu13OiYxwgwTTrHIIh9kx6XDzYNAr_wTj_aF0xYgr4nF8VtJzbHm8OO9LfJ-lZNcVOOLRVQIy-iQXStr7q1ZEBK_Rra9mPeKQ/p.png?size_mode=5" />
+          </div>
         </div>
 
-        <footer>footer
-        </footer>
+        <div id="contact-cont">
+          <p className="readOn1">Contact</p>
+          <h3 className="readOn2">WANT TO LEARN MORE ABOUT MY PROCESS DURING THIS EXPLORATION? HERE&#39;S THE DETAILS.</h3>
+          <a href="/contact" className="readOn-btn">Read On</a>
+
+          <div  id="footer-box">
+            <a href="#"  className="footer-year">&#xa9;2019</a>
+            <div className="footer-rightsie-links">
+              <a href="#" >Linkedln </a>
+              <a href="#" >Dribble </a>
+              <a href="#" >Medium </a>
+            </div>
+          </div>
+        </div>
 
       </div>
     )
