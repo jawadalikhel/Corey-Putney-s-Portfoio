@@ -1,12 +1,28 @@
 .nav {
-  background-color: ;
-  position: absolute;
-  width: 100%;
+  display: grid;
+  background-color: ;;
+  /* position: absolute; */
+  /* width: 100%; */
   color: black;
+  grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .nav a{
-  padding: 1em;
+  padding: .5em;
+  padding-right: 5em;
   float: right;
   text-decoration: none;
+}
+
+.links {
+  grid-column: 4/6;
+}
+
+@media screen and (max-width: 480px){
+  .links {
+    grid-column: 4/6;
+  }
+  .name {
+    margin-left: 1em;
+  }
 }

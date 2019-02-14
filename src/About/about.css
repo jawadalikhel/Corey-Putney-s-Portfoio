@@ -1,0 +1,210 @@
+@font-face {
+	font-family: 'Bebas';
+	src: url('../BebasNeue Bold.otf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+#about-container {
+  /* color: white;
+  font-family: Bebas;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 56;
+  letter-spacing: normal;
+  color: #ffba90;
+  font-size: 1em; */
+
+
+  color: white;
+  display: grid;
+  grid-template-rows: repeat(4, minmax(50px, auto));
+}
+.navabout {
+  display: grid;
+  background-color: #555966;
+  color: black;
+}
+
+.navabout a{
+  padding: .5em;
+  padding-right: 5em;
+  float: right;
+  text-decoration: none;
+}
+.name {
+  color: white;
+}
+
+.links {
+  grid-column: 4/6;
+}
+
+#header-container {
+  /* grid-row: 2/3; */
+  background-color: #555966;
+  display: grid;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  grid-template-rows: repeat(4, minmax(50px, auto));
+}
+
+.aboutme-box {
+  background-color: #555966;
+  grid-column: 1/6;
+  grid-row: 1/5;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(4, minmax(50px, auto));
+  padding: 1em;
+}
+
+.intro {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background: ;
+}
+
+.intro2 {
+  position: absolute;
+  margin: 5em 0em 0em 5.8em;
+}
+
+.intro3 {
+  position: absolute;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 2.38em 0em 0em 8.64em;
+}
+
+.bio {
+  grid-column: 1/3;
+  grid-row: 3/5;
+  background-color: ;
+  background: ;
+  margin-top: 5em;
+
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.bio2 {
+  grid-column: 1/2;
+  position: absolute;
+  margin: 5em 0em 0em 5.8em;
+}
+
+.bio3 {
+  grid-column: 2/5;
+
+  /* position: absolute; */
+  /* grid-column: 1/2; */
+  margin: 5em 0em 0em 4.4em;
+  width: 100%;
+}
+
+.profile-pic{
+  grid-column: 3/4;
+  grid-row: 3/5;
+  width: 100%;
+  margin: 3.7em 0em 0em 10em;;
+
+}
+
+#btns-container {
+  /* background: red; */
+  grid-column: 3/5;
+  grid-row: 3/4;
+
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;;
+
+  margin-left: 25%;
+  margin-top: 60%;
+}
+
+.journey-btn {
+  grid-column: 1/3;
+  background: orange;
+  height: 3em;
+  width: 9em;
+  border-radius: 20%;
+  border-style: none;
+  margin-left: -2em;
+}
+.resume-btn {
+  grid-column: 3/6;
+  background: yellow;
+  height: 3em;
+  width: 9em;
+  border-radius: 20%;
+  border-style: none;
+}
+
+/* .intro {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+  text-align: left;
+  width: 90%;
+  margin-left: em;
+} */
+
+/* .intro2 {
+  background: ;
+  height: 35%;
+  width: 110%;
+  margin-top: 3.35em;
+} */
+
+/* .introP { */
+  /* grid-row: 2/3;
+  background: red; */
+  /* height: 5%;
+  width: 50%;
+  margin-left: 5em;
+  margin-top: 5em; */
+/* } */
+
+/* .bio {
+  grid-row: 2/3;
+  background: ;
+  width: 115%;;
+  margin-top: 4.9em;
+}
+
+.profile-pic {
+  margin-top: 14.55em;
+  width: 50%;
+} */
+
+
+
+#arsenal-container {
+  /* grid-column: 1/3; */
+  display: grid;
+  /* grid-template-columns: repeat(11, minmax(30px, auto)); */
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(1, minmax(30px, auto));
+  /* grid-gap: 2em;
+  width: 80%;
+  margin: 0 auto; */
+  margin: 0 auto;
+  width: 100%;
+}
+.arsenal-img {
+  grid-column: 1/5;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px){
+  .links {
+    grid-column: 4/6;
+  }
+  .name {
+    margin-left: 1em;
+  }
+}
