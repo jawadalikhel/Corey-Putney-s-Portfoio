@@ -19,7 +19,7 @@ class Contact extends Component{
           <h1 className="txt">
             want to chat user experience?<br/>
             build amazing products?<br/>
-            lets talk&#39;s talk!
+            let&#39;s talk!
           </h1>
         </div>
 

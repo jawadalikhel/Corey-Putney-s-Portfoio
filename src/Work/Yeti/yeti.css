@@ -1,0 +1,315 @@
+#yeti-container {
+  display: grid;
+  grid-template-rows: repeat(15, minmax(20px, auto));
+}
+
+/*  *//*  *//*  *//* design header  *//*  *//*  *//*  *//*  */
+#yeti-header {
+  width: 100%;
+  grid-row: 1/2;
+  grid-column: 1/6;
+  background: #604261;
+  color: white;
+
+
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(2, minmax(20px, auto));
+}
+
+.yetiH-info {
+  background: ;
+  grid-column: 2/3;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(4, minmax(10px, auto));
+}
+
+.yeti-header-info {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  width: 115%;
+  background: ;
+  font-size: 1.5em;
+  margin-left: -5.8em;
+}
+
+.header-yetiImg {
+  grid-column: 4/5;
+  grid-row: 1/5;
+  margin-left: 10em;
+}
+
+.navFor-yeti {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  display: grid;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+
+}
+
+.ylinks {
+  grid-column: 4/5;
+  margin-top: 1.7em;
+  margin-left: 20em;
+}
+
+.ylinks a {
+  text-decoration: none;
+  margin-left: 5em;
+  color: white;
+}
+/*  *//*  *//*  *//*  *//* design role container  *//*  *//*  *//*  *//*  */
+#yeti-roles {
+  grid-row: 2/3;
+  grid-column: 1/6;
+
+  /* width: 100%; */
+  padding: 1.5em;
+  background: rgba(214, 227, 248, 0.57);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.roles1-yeti {
+  background: ;
+  grid-column: 1/2;
+  width: 72%;
+  margin-left: -1.2em;
+  margin-top: 1.4em;
+}
+
+.roles2-yeti {
+  background: ;
+  grid-column: 2/5;
+
+  width: 90%;
+  /* font-size: 1.3em; */
+  margin-left: -1%;
+  text-align: left;
+}
+
+/*  *//*  *//*  *//*  *//* THE CHALLENGE SECTION *//*  *//*  *//*  *//*  *//*  *//*  */
+
+#yeti-challenge {
+  grid-row: 3/4;
+  grid-column: 1/6;
+  background: #604261;
+  color: white;
+
+  padding: 1.5em;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.y-challenge1 {
+  grid-column: 1/2;
+  background: ;
+  margin-left: -4.9em;
+}
+
+.y-challenge2 {
+  background: ;
+  grid-column: 2/5;
+  width: 90%;
+  text-align: left;
+}
+
+/*  *//*  *//*  *//*  *//* the project guidelines for yeti  *//*  *//*  *//*  *//*  *//*  *//*  */
+#yeti-guideline {
+  grid-row: 4/5;
+  grid-column: 1/6;
+  background: rgba(214, 227, 248, 0.57);
+  color: black;
+
+  padding: 1.5em;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.guideline1 {
+  grid-column: 1/2;
+  background: ;
+  margin-left: -4.9em;
+}
+
+.guideline2 {
+  background: ;
+  grid-column: 2/5;
+  width: 90%;
+  text-align: left;
+}
+
+/*  *//*  *//*  *//*  *//* the persona for yeti  *//*  *//*  *//*  *//*  *//*  *//*  */
+#perona-yeti {
+  grid-row: 5/6;
+  grid-column: 1/6;
+}
+
+.perona-img {
+  width: 87.3%;
+  margin-top: 2em;
+  /* margin: auto; */
+}
+
+/*  *//*  *//*  *//*  *//* the problem for yeti  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+#problem-yeti {
+  grid-row: 6/7;
+  grid-column: 1/6;
+
+  background: rgba(214, 227, 248, 0.73);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(4, minmax(10px, auto));
+  padding: 1em;
+}
+
+.prob-yeti1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+
+  margin-left: -7em;
+}
+
+.prob-yeti2 {
+  grid-column: 2/5;
+  grid-row: 2/3;
+
+  margin-left: -3.6em;
+  margin-top: .6em;
+  font-weight: 800;
+  width: 100%;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.prob-yeti3 {
+  grid-column: 2/6;
+  grid-row: 3/4;
+
+  margin-left: -5.5em;
+  margin-top: -.3em;
+  width: 100%;
+  text-align: left;
+}
+
+/*  *//*  *//*  *//*  *//* the research section for yeti  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+#yeti-research {
+  grid-row: 7/8;
+  grid-column: 1/6;
+  /* width: 100%; */
+  padding: 1.5em;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(4, minmax(10px, auto));
+}
+
+.p1-yetiResearch {
+  grid-column: 1/2;
+  margin-left: -10em;
+}
+
+.p2-yetiResearch {
+  grid-column: 2/3;
+  text-align: left;
+  width: 100%;
+  margin: 1.2em 0em 0em -4.9em;
+  background: ;
+}
+
+.p3-yetiResearch {
+  grid-column: 4/5;
+  text-align: left;
+  width: 100%;
+  margin: 1.2em 0em 0em -8em;
+  background: ;
+
+}
+
+.yetiResearch-img {
+  grid-column: 2/5;
+  grid-row: 2/3;
+  margin-left: -8em;
+  width: 100%;
+}
+
+/*  *//*  *//*  *//*  *//* the problem for yeti  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+#yeti-findings {
+  grid-row: 8/9;
+  grid-column: 1/6;
+  padding: 1.5em;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(5, minmax(10px, auto));
+
+  background: #604261;
+  color: white;
+}
+
+.y-p1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin-left: -10em;
+}
+
+.y-p2 {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  margin-left: -10em;
+}
+
+.y-h1 {
+  grid-row: 2/3;
+  grid-column: 2/5;
+  font-size: 1.5em;
+  margin-left: -7em;
+}
+
+.y-h2 {
+  grid-row: 3/4;
+  grid-column: 2/5;
+  width: 100%;
+  font-size: 1.5em;
+  margin-left: -7em;
+}
+
+.y-h3 {
+  grid-row: 4/5;
+  grid-column: 2/5;
+  width: 100%;
+  font-size: 1.5em;
+  margin-left: -3.5em;
+}
+
+/*  *//*  *//*  *//*  *//* the reframing for yeti  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+#yeti-reframing {
+  grid-row: 9/10;
+  grid-column: 1/5;
+
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(4, minmax(20px, auto));
+}
+
+.reframing-p1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.reframing-p2 {
+  grid-column: 2/5;
+  grid-row: 1/2;
+  
+}
+
+.reframing-img {
+  grid-column: 2/4;
+}

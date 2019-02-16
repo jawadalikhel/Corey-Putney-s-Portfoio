@@ -11,20 +11,24 @@ class DesignWeek extends Component{
           <div className="navFor-design">
             <h2 className="name">COREY PUTNEY</h2>
             <div className="dlinks">
-              <a href="/contact" >Contact</a>
-              <a href="/about" >About</a>
               <a href="/" >Work</a>
+              <a href="/about" >About</a>
+              <a href="/contact" >Contact</a>
 
             </div>
           </div>
 
           <div className="designH-info">
-            <h3>AUSIN DESIGN WEEK</h3><br/><br/>
-            <p>
-              A dedicaed mobile applicaion designed to help users create more lasting relationships and connections from networking events through gamification and reward.
-            </p>
+            <div className="header-info">
+              <h3>AUSIN DESIGN WEEK</h3>
+              <p>
+                A dedicaed mobile applicaion designed to help users create more lasting relationships and connections from networking events through gamification and reward.
+              </p>
+            </div>
 
-            <div className="header-img"><img src="https://previews.dropbox.com/p/thumb/AAVupByZCumqQkiQPHchqyxUVjQgQ3yQAHMmXc7Zb1yiHwTs1XdA7S_j4gthg5gMlFZoZMmJMtX0Dmlk1j8Tz59oaY5M9DZI1eNpY9kAk7yvuPc7et1m4M8CsDT1Lb1et8fN4G1vmiWkDBUqEvYij2FI-6evwOkjOEsYkm9QCknPrMHVBCZorhqUl6kizlyea0x889XYAM41TnI7OslyuuGUZdZvwBkez7pQsA7YrVk5Pg/p.png?size_mode=5"/></div>
+            <div className="header-img">
+              <img src="https://previews.dropbox.com/p/thumb/AAVupByZCumqQkiQPHchqyxUVjQgQ3yQAHMmXc7Zb1yiHwTs1XdA7S_j4gthg5gMlFZoZMmJMtX0Dmlk1j8Tz59oaY5M9DZI1eNpY9kAk7yvuPc7et1m4M8CsDT1Lb1et8fN4G1vmiWkDBUqEvYij2FI-6evwOkjOEsYkm9QCknPrMHVBCZorhqUl6kizlyea0x889XYAM41TnI7OslyuuGUZdZvwBkez7pQsA7YrVk5Pg/p.png?size_mode=5"/>
+            </div>
           </div>
 
         </div>
@@ -159,12 +163,76 @@ class DesignWeek extends Component{
 
 
         <div id="design-feedback">
-          feedback
+
+          <div className="feedback-header">
+            <p className="feedbackH-p">User feedback</p>
+            <h2 className="feedbackH-h2">THE FUTURE WE DUG INTO THE EXPERIENCE THE CLEARER THE PATH TO FOLLOW BECAME</h2>
+            <h3 className="feedbackH-h3">WE ENCOUNTERED A NUMBER OF UNEXPECTED RESULTS WITH OUR INITIAL USABILITY TESTING, AND FEATURE PRIORITIZATION.</h3>
+          </div>
+
+          <div className="feedback1">
+            <h3>FAST FAIL1</h3>
+            <p>
+              Once we had some time to think about our task at hand, and the outlines of our challenge,
+              we decided that a simple redesign of the current information architecture was outside of our scope in that we needed to come up
+              with an innovative niche web app to improve an experience.
+            </p>
+          </div>
+
+          <div className="feedback2">
+            <h3>FAST FAIL2</h3>
+            <p>
+              Our first main feature flub was the idea behind creating an interactive scheduling app with a heat map to visually show
+              users where things were currently happening. People already have scheduling tools that they like to use and are familiar with,
+              therefore we abandonded this idea to the scrap pile.
+            </p>
+          </div>
+
+          <div className="feedback3">
+            <h3>FAST FAIL3</h3>
+            <h3>INSIGHT DRIVEN DESCISION</h3>
+            <p>
+              When we tested the profile creation screen, with users, they surprisingly had very strong opinions about having to input data,
+              which actual makes sense after the fact since most of our users wanted to know what value they were getting before investing
+              any of their time in. So instead of recreating the wheel, we decided that linking and populating a user profile from their existing linkedin account
+              would be the best course of action, expecially for use during professional skill development and networking events.
+            </p>
+          </div>
+
+          <div className="feedback4">
+            <h3>INSIGHT DRIVEN WINNER4</h3>
+            <p>
+              Introducing the concept of creating an environment for networking that set forth clear expectations and value, along with an onboarding process of how the
+              user would most benefit through use of the app was the CLEAR WINNER of all explorations. People were excited, and ideas became flying from all corners.
+
+            </p>
+          </div>
+
+          <div className="feedback5">
+            <h3 className="feedback5-h3">NEEDS MORE WORK6</h3>
+            <p className="feedback5-p1">
+              From some of those initial testing sessions, we iterated on how the game should functionn and what would be most beneficial and feasible for real life application.
+            </p>
+
+            <p className="feedback5-p2">
+              Unfortunately, at this point the team dynamics again broke down, and the possibilities of our idea were limited to what the few of us that were still engaged could muster
+              up, while also seemingly fighting others who for whatever reason would not allow us to progress on the current track.
+            </p>
+
+            <p className="feedback5-p3">
+              Once we got to this point, we had a one-on-one collaboration session with Candace Digby, the co-founder of Austin Design Week. She was incredible to talk to, and gave us so many great ideas and useful constructive feedback.
+            </p>
+          </div>
+
         </div>
+
+
+
 
         <div id="design-visuals">
           <p className="visuals-p">Visuals</p>
           <img className="visuals-img" src="https://previews.dropbox.com/p/thumb/AAXmtAA72hxqumNj7eO7hVMtl6US20TKk6HHGWAE9TPW7OObdv2u7EHRGQJxYY8RqJ-lyW1KIf2YInz50sksNLEOYaQvXpIvgCqNvguxRhyk_B2e3G4McOecr0k7EwZeYY8YefSDxiBtYhy9SR_opEDPsz3G384lvW94FhGT6Prb23t8TVuPYxXa9YP-tLg7yvLx60CrhYFv6wnltN2eEmGt4GL9J4qflVcquTRHLE6Jsw/p.png?size_mode=5" />
+          <button className="prototype-btn">App Prototype</button>
         </div>
 
         <div id="design-retrospective">
@@ -181,7 +249,25 @@ class DesignWeek extends Component{
             I DEFINITELY WANT TO CONTINUE WITH THIS PROJECT IN THE NEAR FUTURE NOW THAT I HAVE
             COMPLETED MY BOOTCAMP, AND SEE WHAT THE POSSIBILITIES HOLD!
           </h3>
+
+          <div  id="design-footer">
+
+            <div className="design-contact">
+              <p className="contact-p">Contact</p>
+              <h3 className="contact-h3">WANT TO LEARN MORE ABOUT MY DESIGN PROCESS?</h3>
+              <button className="contact-btn">Contact Me</button>
+            </div>
+
+            <p className="design-year">&#xa9;2019</p>
+            <div className="design-footer-rightsie-links">
+              <a href="#" >Linkedln </a>
+              <a href="#" >Dribble </a>
+              <a href="#" >Medium </a>
+            </div>
+          </div>
         </div>
+
+
 
       </div>
     )
