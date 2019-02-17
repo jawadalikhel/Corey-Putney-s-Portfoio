@@ -8,7 +8,7 @@ class Work extends Component{
 
         <div id="work-header">
 
-          <div className="about-container img-text-center">
+          <div className="about-container img-text-center" id="wabout-container">
 
             <div className="navwork" >
               <h2 className="name" style={{"color":"#555966"}}>COREY PUTNEY</h2>
@@ -22,8 +22,8 @@ class Work extends Component{
             </div>
 
             <img id="img" src="https://previews.dropbox.com/p/thumb/AAW6AKzSaxJDftQcCmEcT2bk0scHUxJJMjQUsoEWrsp2p-NC2yvdytGNugyWjwANqhD_mJbHJzBVd71TKcO8sKf03ZHmG-Sm-Tazt0C-ZaMkknGA1WNqIJqPf_abKKANPBLl0rgO5dUuF5W1qM3O9ec2WV6BfivOL3zu4b6DS8ZgqevvxR_GsPSakChq-g-UhUhu3VAGO3P1E4eH1z8Ha72mCYAXV5Eb-ua3vTZtiu9fHQ/p.png?size_mode=5"/>
-            <div className="text">
-              <h1 className="about-me2">hello-im corey, a ux designer<br/> based in austin, texas.</h1><br/>
+            <div className="text" id="aboutme-div">
+              <h1 className="about-me2"><text style={{"color":"#FFF5A8"}}>hello-im corey,</text> a ux designer<br/> based in austin, texas.</h1>
               <p className="about-me3">As a UX Designer, I bring my intuitive curiosity and my passion for helping others together in a way that works for the greater good. I intimately understand how design thinking brings value to all facets of life, and I have a relentless desire to fully understand and embrace the design process.</p>
             </div>
 

@@ -265,10 +265,8 @@ class DesignWeek extends Component{
               <a href="#" >Medium </a>
             </div>
           </div>
+
         </div>
-
-
-
       </div>
     )
   }
