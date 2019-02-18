@@ -5,8 +5,6 @@ class Work extends Component{
   render(){
     return(
       <div>
-      <input type="checkbox" />
-
         <div id="work-container">
           <div className="about-container img-text-center" id="work-header">
 
@@ -31,9 +29,9 @@ class Work extends Component{
 
           <div id="projects-container">
 
-          <div id="grid">
-            <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p>
-          </div>
+            <div id="grid">
+              <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p>
+            </div>
 
             <h4 className="case-study">Case Study</h4>
 
