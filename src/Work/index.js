@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './work.css';
+import { Link } from 'react-router-dom';
+
 
 class Work extends Component{
   render(){
@@ -12,9 +14,9 @@ class Work extends Component{
               <h2 className="wname" style={{"color":"#555966"}}>COREY PUTNEY</h2>
 
               <nav className="wlinks" style={{}}>
-                <a href="/"  style={{}}>Work</a>
-                <a href="/about"  style={{}}>About</a>
-                <a href="/contact"  style={{}}>Contact</a>
+                <Link to={"/"}  style={{}}>Work</a>
+                <Link to={"/about"}  style={{}}>About</a>
+                <Link to={"/contact"}  style={{}}>Contact</a>
               </nav>
 
             </div>
