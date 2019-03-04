@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Route, Switch} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,15 +20,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Switch>
-          <Route exact path="/" component={Work} />
-          <Route  path="/about" component={About} />
-          <Route  path="/contact" component={Contact} />
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/" component={Work} />
+            <Route  path="/about" component={About} />
+            <Route  path="/contact" component={Contact} />
 
-          <Route  path="/yeti" component={Yeti} />
-          <Route  path="/design" component={DesignWeek} />
-          <Route  path="/coffee" component={Coffee} />
-        </Switch>
+            <Route  path="/yeti" component={Yeti} />
+            <Route  path="/design" component={DesignWeek} />
+            <Route  path="/coffee" component={Coffee} />
+          </Switch>
+        </BrowserRouter>
       </div>
     );
   }
