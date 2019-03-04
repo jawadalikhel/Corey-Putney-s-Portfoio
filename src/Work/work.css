@@ -5,6 +5,7 @@
 	font-style: normal;
 }
 
+
 #work-container{
 	display: grid;
 	grid-template-rows: repeat(2, minmax(50px, auto));
@@ -134,6 +135,8 @@
 /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
 
 #wcoffee-container {
+	color: black;
+
 	grid-column: 3/12;
 	grid-row: 1/2;
 	background: ;
@@ -170,6 +173,8 @@
 
 /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
 #wdesign-container{
+	color: black;
+
 	grid-column: 3/12;
 	grid-row: 2/3;
 	background: ;
@@ -205,6 +210,8 @@
 }
 
 #wyeti-container{
+	color: black;
+
 	grid-column: 3/12;
 	grid-row: 3/4;
 	background: ;

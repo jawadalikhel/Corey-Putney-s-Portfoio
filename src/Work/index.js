@@ -19,7 +19,7 @@ class Work extends Component{
 
             </div>
 
-            <img id="img" src="https://previews.dropbox.com/p/thumb/AAW6AKzSaxJDftQcCmEcT2bk0scHUxJJMjQUsoEWrsp2p-NC2yvdytGNugyWjwANqhD_mJbHJzBVd71TKcO8sKf03ZHmG-Sm-Tazt0C-ZaMkknGA1WNqIJqPf_abKKANPBLl0rgO5dUuF5W1qM3O9ec2WV6BfivOL3zu4b6DS8ZgqevvxR_GsPSakChq-g-UhUhu3VAGO3P1E4eH1z8Ha72mCYAXV5Eb-ua3vTZtiu9fHQ/p.png?size_mode=5"/>
+            <img src={require("./hPhoto.png")} />
             <div className="text" id="aboutme-div">
               <h1 className="about-me2"><text style={{"color":"#FFF5A8"}}>hello-im corey,</text> a ux designer<br/> based in austin, texas.</h1>
               <p className="about-me3">As a UX Designer, I bring my intuitive curiosity and my passion for helping others together in a way that works for the greater good. I intimately understand how design thinking brings value to all facets of life, and I have a relentless desire to fully understand and embrace the design process.</p>
@@ -43,7 +43,7 @@ class Work extends Component{
               </div><br/>
 
               <a href="/coffee" className="c-img" >
-                <img className="wcoffee-img" src="https://previews.dropbox.com/p/thumb/AAXfazzZIRiSZ0Tcihwdq-aZkx7i5IT1YfED6ieWjniu6gi-D9V0qBZFPvqakO1ZUwEKDf1YK25XLY38_g5BpTtvMU4RH3F_80u0jg3JsJ6RuBruj09cfxG9heQw5ZET7bEM0zXh2hPUpH5KwBnCX8oViojjhsU4pKUyxO1dt_9aooQe-7AQaTdVA0fl0DUvWBsoOiEMkNiPhjnJl7XkwD6LvshNPlN0HRdZVTVSsEOcDK7zdUJSA2RdSoX_cdg2SwE/p.png?size_mode=5" />
+                <img className="wcoffee-img" src={require("./coffeimg.png")} />
               </a>
             </a>
 
@@ -54,7 +54,7 @@ class Work extends Component{
                 <p>A dedicated mobile application designed to help users get more lasting relationships and connections from the networking events through gamification and reward.</p>
               </div>
               <a href="/design" className="d-img">
-                <img className="wdesign-img" src="https://previews.dropbox.com/p/thumb/AAUfbUqaSflZgbO7DYkQZTSYp9wy19DQIefvxcah7xOL9TQqzBlSKcGeOUeGcJzI3O9wOVLYeE2ZVbjR95b52oaGlqrNixjUetYxMHLu0BsE2iEZk1oF9MS45oEzPWpQSEEwxYbAJ3JRxcvusq9-gj0_OMznrzhA6tUSJgsLDHBB_x-GmBJ4pmu7aN3XAjJYY8wJkrVOYgde4fGnMt2ph08K7AiGWvww42YLrjjH-pPfNQ/p.png?size_mode=5" />
+                <img className="wdesign-img" src={require("./designimg.png")} />
               </a>
             </a>
 
@@ -66,7 +66,7 @@ class Work extends Component{
               </div>
 
               <a href="/yeti" className="y-img">
-                <img className="wyti-img" src="https://previews.dropbox.com/p/thumb/AAVCMfk11hvUR6JrhOOVimO7W4zLjXnwhTKjEsRpeqlUuP28CNGm_kmdIGjCsII6KZY8W9PfzDfXKaOxykB-ivO_lF1Y6ng3TYGcBPLEuVHvA6kOf7ZNGBBh_VrRyaj9ld8e6m0ovKTT7qSX8h1ZqyPA6YEpazkWdifTJ0ORyLgwyIKOccEIn0rkdAwxyph4u-ZxGL3exmJ_i9C7sU8nOhc-HpVdGoha0aNS1xYs2Dlcyw/p.png?size_mode=5" />
+                <img className="wyti-img" src={require("./yetiimg.png")} />
               </a>
             </a>
 
